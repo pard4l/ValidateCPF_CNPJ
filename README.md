@@ -7,8 +7,7 @@ Functions to validate Brazilian CPF and CNPJ
 HOW USE
 =========
 
-Import Class
-#import "Validate.h";
+Import Class "Validate.h";
 
 
 CPF
