@@ -51,7 +51,7 @@
         }
         int divP = resultP % 11;
         
-        if (divP < 2 || divP == 10 || divP == 11){
+        if (divP < 2 ){
             divP = 0;
         } else {
             divP = 11 - divP;
@@ -68,7 +68,7 @@
             }
             int divS = resultS % 11;
             //se o resultado for diferente ao 11º digito do cpf retorna falso
-            if (divS < 2 || divS == 10 || divS == 11){
+            if (divS < 2 ){
                 divS = 0;
             } else {
                 divS = 11 - divS;
